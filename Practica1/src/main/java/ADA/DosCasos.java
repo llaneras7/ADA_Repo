@@ -3,7 +3,7 @@ package ADA;
 public class DosCasos extends Metodo{
 
     @Override
-    int codigo(int n){
+    public int codigo(int n){
         //Mejor caso: Si n es mejor o igual a 0
         if (n <= 0) {
             return 0;  // Complejidad constante

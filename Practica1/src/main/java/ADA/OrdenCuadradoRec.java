@@ -2,7 +2,7 @@ package ADA;
 
 public class OrdenCuadradoRec extends Metodo {
     @Override
-    int codigo(int n) {
+    public int codigo(int n) {
         if (n <= 1) {
             return 1;
         }

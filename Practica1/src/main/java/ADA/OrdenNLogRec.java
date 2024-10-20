@@ -2,7 +2,7 @@ package ADA;
 
 class OrdenNLogRec extends Metodo {
     @Override
-    int codigo(int n) {
+    public int codigo(int n) {
         int resultado = 0;
         for (int i = 0; i < n; i++) {
             resultado += recursivoLog(n);

@@ -3,7 +3,7 @@ package ADA;
 public class OrdenLinealRec extends Metodo{
 
     @Override
-    int codigo(int n) {
+    public int codigo(int n) {
         if (n <= 1) {
             return 1;
         }

@@ -2,7 +2,7 @@ package ADA;
 
 public class OrdenLogIter extends Metodo{
     @Override
-    int codigo(int n) {
+    public int codigo(int n) {
         int resultado = 0;
 
         // Un bucle que se ejecuta mientras n sea mayor que 1, dividiendo n entre 2 en cada iteración
